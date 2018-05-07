@@ -61,7 +61,8 @@ a:hover {
 }
 
 a:hover, a:focus {
-  color: #b8a07e;
+  color: #FF9000;
+  /*color: #b8a07e;*/
   text-decoration: underline;
 }
 
@@ -91,12 +92,14 @@ p {
 }
 
 ::-moz-selection {
-  background: #b8a07e;
+  background: #FF9000;
+  /*background: #b8a07e;*/
   color: #fff;
 }
 
 ::selection {
-  background: #b8a07e;
+  background: #FF9000;
+  /*background: #b8a07e;*/
   color: #fff;
 }
 
@@ -165,7 +168,8 @@ p {
 }
 
 .hvr-shutter-in-horizontal:hover {
-  background: #b8a07e;
+  background: #FF9000;
+  /*background: #b8a07e;*/
 }
 
 .mb-30 {
@@ -295,12 +299,13 @@ nav ul li a {
 }
 
 #about .section-title{
-  padding-bottom: 60px;
+  padding-bottom: 30px;
 }
 
 #about .div-img-bg {
   padding-bottom: 30px;
-  border: 20px solid #b8a07e;
+  border: 20px solid #FF9000;
+  /*border: 20px solid #b8a07e;*/
 }
 
 #about .div-img-bg .about-img img {
@@ -356,7 +361,8 @@ nav ul li a {
 
 .services-block i {
   font-size: 44px;
-  color: #b8a07e;
+  /*color: #b8a07e;*/
+  color: #FF9000;
   line-height: 44px;
 }
 
@@ -383,7 +389,8 @@ nav ul li a {
 }
 
 .services-carousel .owl-dot.active {
-  background-color: #b8a07e;
+  background-color: #FF9000;
+  /*background-color: #b8a07e;*/
 }
 
 .owl-nav {
@@ -447,7 +454,8 @@ nav ul li a {
 }
 
 #portfolio .portfolio-list .nav li:hover, #portfolio .portfolio-list .nav li.filter-active  {
-  color: #b8a07e;
+  color: #FF9000;
+  /*color: #b8a07e;*/
   -moz-transition: all 0.5s ease-in-out 0s;
   -ms-transition: all 0.5s ease-in-out 0s;
   -o-transition: all 0.5s ease-in-out 0s;
@@ -523,7 +531,8 @@ nav ul li a {
 }
 
 .journal-block .journal-info .journal-txt h4 a:hover {
-  color: #b8a07e;
+  color: #FF9000;
+  /*color: #b8a07e;*/
   -moz-transition: all 0.5s ease-in-out 0s;
   -ms-transition: all 0.5s ease-in-out 0s;
   -o-transition: all 0.5s ease-in-out 0s;
@@ -634,7 +643,8 @@ nav ul li a {
 }
 
 #footer .socials-media ul li a:hover {
-  color: #b8a07e;
+  color: #FF9000;
+  /*color: #b8a07e;*/
   -moz-transition: all 0.5s ease-in-out 0s;
   -ms-transition: all 0.5s ease-in-out 0s;
   -o-transition: all 0.5s ease-in-out 0s;
@@ -769,7 +779,8 @@ nav ul li a {
   top: 40px;
   left: 50%;
   margin-left: -21px;
-  background-color: #b8a07e;
+  background-color: #FF9000;
+  /*background-color: #b8a07e;*/
   z-index: 100;
   display: table;
   -webkit-border-radius: 50%;
