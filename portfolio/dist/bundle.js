@@ -9320,7 +9320,15 @@ module.exports = {
     // }],
 
     '개인 활동': [{
-      'date': '2017.11',
+      'date': '2018.06',
+      'title': 'Good Company Series 01 Kakao Bank',
+      'contents': ['Good Company X Kakao Bank', '- Intro. 카카오뱅크 Booth Zone', '- 카카오뱅크에서 개발자로 일한다는 것', '- 카카오뱅크에서 기획자로 일한다는 것', '- 어떤 사람들이 어떻게 일하고 있는가?']
+    }, {
+      'date': '2018.06',
+      'title': '클라우드 온보드 서울',
+      'contents': ['Google Cloud', '- 개별 세션별 기술 시연', '- Google App Engine, Datastore, Storage, Container Engine, Computer Engine 및 네트워크, 빅데이터, 기계 학습', '- 기술교육']
+    }, {
+      'date': '2018.06',
       'title': 'Designer & Developer',
       'contents': ['GDG Campus Korea [meetup]', '- 디자이너 & 개발자 협업', '- 실무진 이야기', '- 네트워킹']
     }, {
