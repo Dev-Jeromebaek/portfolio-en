@@ -201,7 +201,6 @@ $(document).ready(function() {
 
   // Call the functions
   magnifPopup();
-  pieChart();
   loaderPage();
   locale_check();
   moreResume();
