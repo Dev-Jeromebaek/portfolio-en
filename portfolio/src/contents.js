@@ -28,23 +28,28 @@ module.exports = {
       },
       {
         date: "Language",
-        title:
-          "JavaScript (3) / HTML5 (3) / CSS3 (3) / JAVA (3) / JSP(3) / TypeScript (1) / PHP (2) ",
+        title: "JavaScript (3) / JAVA (3) / JSP(3) / TypeScript (1) / PHP (2) ",
         contents: [""]
       },
       {
         date: "Framework",
-        title: "Spring (2) / Bootstrap (2) / Codeigniter (2) / _Template (2)",
+        title: "Spring (2) / React (2) / Codeigniter (2) / _Template (2)",
         contents: [""]
       },
       {
         date: "Library",
-        title: " React (2) / JSTL (3) / jQuery (2)",
+        title: "Redux (1) / MobX(1) / JSTL (3) / jQuery (2)",
+        contents: [""]
+      },
+      {
+        date: "Markup",
+        title:
+          "HTML5 (3) / CSS3 (3) / Sass(1) / Bootstrap (2) / Meterial-design (1)",
         contents: [""]
       },
       {
         date: "Dependency Manager",
-        title: "npm (2) / WebPack (2) / BaBel (2) / Maven(2)",
+        title: "npm (2) / yarn (2) / WebPack (2) / BaBel (2) / Maven(2)",
         contents: [""]
       },
       {
@@ -54,17 +59,50 @@ module.exports = {
       }
     ],
 
-    // '개인 프로젝트': [{
-    //   'date': '2017.07 - 현재',
-    //   'title': 'vue-lunar-calendar',
-    //   'contents': ['- Vue.js component library', '- <a href="https://github.com/KimWooHyun/vue-lunar-calendar">https://github.com/KimWooHyun/vue-lunar-calendar</a>', '- 한국 음력 달력 라이브러리', '- opensource', '- 총 7명의 contributors, 6개의 언어']
-    // }, {
-    //   'date': '2017.08',
-    //   'title': 'WHLunarCalendar',
-    //   'contents': ['- Swift library', '- <a href="https://github.com/KimWooHyun/WHLunarCalendar">https://github.com/KimWooHyun/WHLunarCalendar</a>', '- 한국 음력 달력 라이브러리', '- opensource']
-    // }],
+    "개인 프로젝트": [
+      {
+        date: "2018.10 - 현재",
+        title: "awesome-web-styling",
+        contents: [
+          "- Pure CSS Animation Effects",
+          '- <a href="https://github.com/Dev-JeromeBaek/awesome-web-styling">https://github.com/Dev-JeromeBaek/awesome-web-styling</a>',
+          "- 웹페이지에 사용하는 각각 부품들에 대한 Animation Effect 제공",
+          "- Navigation, Text, Card, Spinner, Hamburger, etc",
+          "- opensource"
+        ]
+      },
+      {
+        date: "2018.08",
+        title: "awesome-react-skeleton",
+        contents: [
+          "- React, Redux library",
+          '- <a href="https://github.com/Dev-JeromeBaek/awesome-react-basic-skeleton">https://github.com/Dev-JeromeBaek/awesome-react-basic-skeleton</a>',
+          "- React 공부를 위한 시작 skeleton 프로젝트 제공",
+          "- opensource"
+        ]
+      }
+    ],
 
     "개인 활동": [
+      {
+        date: "2018.11",
+        title: "GDG DevFest Seoul 2018",
+        contents: [
+          "GDG Tech [Festival]",
+          "- 구글 기술과 관련된 세션, 코드랩, 스터디잼 구성",
+          "- Android, Firebase, GCP, Machine Learning, Web Tech, Chrome 등 기술 소개",
+          "- 기술 트랜드 공유"
+        ]
+      },
+      {
+        date: "2018.10",
+        title: "뻔뻔한 발표",
+        contents: [
+          "Fun Fun Study",
+          "- 함수형 프로그래밍이란?",
+          "- 코틀린, ARCore, Tensorflow에서의 함수형 프로그래밍 짧은 이론 및 경험 공유"
+        ]
+      },
       {
         date: "2018.06",
         title: "2018 오픈소스 개발자 이야기",
@@ -173,9 +211,10 @@ module.exports = {
   detailContents: {
     "TMON (티몬) - 인턴": {
       date: "2018.07 - 2018.08",
-      info: "사내 시스템 대시보드 개발",
+      info:
+        "국내 최초의 소셜 커머스 회사로서 중견기업, 2017년 매출 4,000억, 종업원수 1000여명, 솔루션 / 서비스 / 배송 / 영상제작 등의 업무 영역을 가지고 있음.",
       service: [
-        'Project<br /> - <a onClick="alert(`업데이트중입니다.`)" style="text-decoration:underline;cursor:pointer">01. TMON DashBoard <a/>'
+        'Project<br /> - <a onClick="alert(`업체의 공개 제한요청으로 비공개처리 되었습니다.`)" style="text-decoration:underline;cursor:pointer">01. TMON DashBoard <a/>'
       ],
       project: {
         project: [
@@ -189,7 +228,7 @@ module.exports = {
               <b>- [프로젝트 작업]</b> : 전체적인 제안, 기획, 설계 / Framework설계 / 프로젝트 전체 통합 / 일정관리<br /><br />
               <b>- [메인 작업]</b> : React로 SPA, Admin API List 연결 CRUD, DashBoard Service Page (Component Set, Routing, Chart, CRUD, Exception, Set LifeCycle, LocalStorage Management, Responsive Web, ...), git(Code review)<br /><br />
               `,
-              "- 사내 관리를 위한 관리자페이지 및 대시보드 개발",
+              "- 사내 시스템 관리를 위한 관리자페이지 및 대시보드 개발",
               "- 기여도 : 40%",
               "- stack : JAVA, JSP, Spring 4.x, React, Babel, Webpack, Chartist, Axios, ReactStrap, React-Grid-Layout, React-Context-API, Git, Bitbucket, Confluence<br />"
             ]
@@ -200,7 +239,7 @@ module.exports = {
     "Coreriver (코아리버)": {
       date: "2017.05 - 2018.06",
       info:
-        "코아리버는 IoT, 영상처리, 쇼핑몰 관련 웹/앱 개발의 선도적인 기업입니다. 안드로이드, iOS, 하이브리드 웹/앱 개발 및 디자인까지 토탈 솔루션을 제공합니다.",
+        "코아리버는 IoT, 영상처리, 쇼핑몰 관련 웹/앱 개발의 선도적인 기업입니다. 안드로이드, iOS, 하이브리드 웹/앱 개발 및 디자인까지 토탈 솔루션을 제공.",
       service: [
         'Web - 회사 소개 사이트<br /> - <a href="http://www.coreriver.com">http://www.coreriver.com</a> <br /><br />',
         'Portfolio<br /> - <a href="http://www.coreriver.com/technology.asp#portfolio">http://www.coreriver.com/technology.asp#portfolio</a> <br /><br />',
