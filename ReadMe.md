@@ -1,5 +1,7 @@
 # Thanks for Comming.
 
+I'm Jerome Baek
+
 <!-- Thanks for downloading this theme!
 
 Theme Name: Folio
